@@ -21,4 +21,4 @@ RSS feeds project. This project was validated according to the Review the Feed R
 
 # Contribution
 - Author: Gustavo Giwoo Lee
-- Linkedin: (https://www.linkedin.com/in/leegiwoo/)[https://www.linkedin.com/in/leegiwoo/]
+- Linkedin: [https://www.linkedin.com/in/leegiwoo/](https://www.linkedin.com/in/leegiwoo/)
