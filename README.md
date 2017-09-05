@@ -18,3 +18,7 @@ RSS feeds project. This project was validated according to the Review the Feed R
 7. No test should be dependent on the results of another.
 8. Implement error handling for undefined variables and out-of-bound array access.
 9. When complete - all of your tests should pass.
+
+# Contribution
+- Author: Gustavo Giwoo Lee
+- Linkedin: (https://www.linkedin.com/in/leegiwoo/)[https://www.linkedin.com/in/leegiwoo/]
