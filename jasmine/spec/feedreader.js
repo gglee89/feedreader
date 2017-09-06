@@ -26,11 +26,13 @@ $(function() {
             it('should contain attribute url in idx: ' + idx, function() {
                 // Run as expected
                 expect(feed.url).toBeDefined();
+                expect(feed.url).not.toEqual("");
             });
 
             it('should contain attribute name in idx: ' + idx, function() {
                 // Run as expected
                 expect(feed.name).toBeDefined();
+                expect(feed.name).not.toEqual("");
             });
         }
 
