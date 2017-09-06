@@ -1,14 +1,25 @@
 # Project Overview
 
-In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
+RSS feeds project. This project was validated according to the Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
 
+# How to run the application
 
-## Why this Project?
+- Download this repository;
+- Open the **index.html** file;
 
-Testing is an important part of the development process and many organizations practice a standard of development known as "test-driven development". This is when developers write tests first, before they ever start developing their application. All the tests initially fail and then they start writing application code to make these tests pass.
+# Tests in this project
 
-Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
+1. Loops through each feed in the `allFeeds` object and ensures it has a URL defined and that the URL is not empty.
+2. Test that loops through each feed in the `allFeeds` object and ensures it has a name defined and that the name is not empty.
+3. Ensures the menu element is hidden by default.
+4. Ensures the menu changes visibility when the menu icon is clicked. This test should have two expectations: does the menu display when clicked and does it hide when clicked again.
+5. Ensures when the `loadFeed` function is called and completes its work, there is at least a single `.entry` element within the `.feed` container.
+6. Ensures when a new feed is loaded by the `loadFeed` function that the content actually changes.
+7. No test should be dependent on the results of another.
+8. Implement error handling for undefined variables and out-of-bound array access.
+9. When complete - all of your tests should pass.
 
+<<<<<<< HEAD
 
 ## What will I learn?
 
@@ -46,3 +57,8 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 19. Implement error handling for undefined variables and out-of-bound array access.
 20. When complete - all of your tests should pass.
 21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.
+=======
+# Contribution
+- Author: Gustavo Giwoo Lee
+- Linkedin: [https://www.linkedin.com/in/leegiwoo/](https://www.linkedin.com/in/leegiwoo/)
+>>>>>>> 9f24fec9bb15cb4fc0ae5d8998ff16b1b501e3eb
